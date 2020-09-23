@@ -1,0 +1,182 @@
+/* COVER */
+
+.cover {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url(../../images/cover1.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    margin-bottom: 4em;
+}
+
+@media only screen and (max-width: 768px) {
+    .cover {
+        padding-top: 20%;
+        padding-bottom: 100%;
+        padding-left: 40%
+    }
+    .cover-text {
+        transform: translate(-50%, -50%);
+        color: white;
+        position: static;
+        height: 8em;
+        left: 40%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .cover {
+        padding-top: 45%;
+        background-attachment: fixed;
+    }
+    .cover-text {
+        color: white;
+        transform: translate(10%, -100%);        
+    }
+}
+@media only screen and (min-width: 992px) {
+    .cover {
+        padding-top: 30%;
+        background-attachment: fixed;
+    }
+    .cover-text {
+        color: white;
+        transform: translate(10%, -100%);        
+    }
+}
+
+.cover button {
+    margin-top: 1em;
+}
+
+.cover .button {
+    background-color: #C10404;
+    border: none;
+    color: white;
+    font-size: 1em;
+    padding: 14px 40px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+.cover .button:hover {
+    background-color:#8C0202;
+    color: white;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.24), 0 1px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*INSPIRACIJA*/
+
+.inspiracija {
+    background-image: linear-gradient(30deg, #F45555, #C10404, #5E0101);
+    padding-bottom: 4em;
+    padding-top: 4em;
+    color: white;
+    background-attachment: fixed;
+}
+
+/*ŠTO MOŽEŠ*/
+
+
+.sto-mozes {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.sto-mozes .card {
+    margin-bottom: 2em;
+}
+
+.sto-mozes img {
+    padding-bottom: 1em;
+}
+/*ŠTO TI NUDIMO*/
+
+@media (max-width: 768px) {
+
+    .sto-nudimo .element {
+        padding-top: 10em;
+        font-size: 1.5em;
+        color: black;
+        text-align: center;
+    }
+    .sto-nudimo h3 {
+        font-size: 1.5em;
+    }
+    
+  }
+
+.sto-nudimo {
+    width: 100%;
+    height: 100%;
+    padding-top: 0em;
+    padding-bottom: 2em;
+}
+.sto-nudimo img {
+    max-width: 100%;
+}
+.sto-nudimo .element {
+    padding: 1em;
+    color: black;
+    text-align: center;
+}
+
+/*KAKO-POCETI*/
+
+.kako-poceti {
+    height: 5em;
+}
+
+/*FOTO-TEKST*/
+
+.foto-text {
+    background-color: #85CEF6;
+    background-image: linear-gradient(-30deg, #85CEF6, #85CEF6, rgb(182, 225, 248));
+    margin-bottom: 5%;
+    background-attachment: fixed;
+}
+
+
+.foto-text img {
+    width: 100%;
+       
+}
+.foto-text .text {
+    color: white;
+    margin-top:1em;
+    margin-bottom: 3em; 
+}
+
+
+@media only screen and (max-width: 768px) {
+    .foto-text {
+        margin-bottom: 0%;
+    }
+    .foto-text .text {  
+        padding-bottom: 2em;
+        padding-left: 8.33%;   
+    }
+}
+
+.foto-text .button {
+    background-color: #C10404;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    width: 85%;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    margin-top: 1em;
+}
+.foto-text .button:hover {
+    background-color: #8C0202;
+    color: white;
+}
+
+
+

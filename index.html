@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Udruga Zdravo Trčanje</title>
+    <link
+      type="image/x-icon"
+      href="images/zdravo-trcanje-logo-za-web.jpg"
+      rel="shortcut icon"
+    />
+
+    <link rel="stylesheet" href="styles/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles/css/style.css" />
+    <link rel="stylesheet" href="styles/css/style-nav-footer.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../styles/js/bootstrap.bundle.js"></script>
+  </head>
+  <body>
+    <!-- NAVIGACIJSKA TRAKA-->
+
+    <nav
+      class="navbar navbar-nav navbar-expand-md navbar-light"
+      style="background-color: white;"
+    >
+      <div class="container logo-toggler">
+        <!--Logo i toggler za mobile view-->
+        <a class="navbar-brand" href="#">
+          <img src="images/zdravo-trcanje-logo-za-web.jpg" /> <span class="logo-tekst">Udruga Zdravo
+          Trčanje</span> </a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#mynavbar"
+          aria-controls="mynavbar"
+          aria-expanded="false"
+        >
+          <!-- span nam definira da ce imati tri crtice i da nece preci u novi red-->
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="nav navbar-nav ml-auto">
+            <!-- miče traku na desno, tj auto. pomicanje u lijevo kad se sužava -->
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Početna</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/otrcani-maratoni.html"
+                >Maratoni</a >
+            </li>
+          
+            <li class="nav-item">
+              <a class="nav-link" href="pages/liga.html">Liga</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/kontakt.html">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--COVER-->
+
+    <div class="cover">
+      <div class="cover-text">
+        <h1 class="display-3">Kreni danas</h1>
+        <h5>
+          Personalizirani program treninga za sve - od početnika do
+          ultramaratonaca
+        </h5>
+        <a href="pages/kontakt.html"><button type="button" class="button">TRČI S NAMA</button></a>
+        
+      </div>
+    </div>
+
+    <!--ŠTO TI NUDIMO-->
+    <section class="sto-nudimo container-fluid ">
+      <div class="text-center"><h2>Zašto se pridružiti</h2></div>
+      <div
+        class="container flex-md-row flex-column align-items-center d-flex justify-content-center"
+      >
+        <div class="container col-xs-12 col-md-4">
+          <img src="images/srce2-02.png" />
+        </div>
+        <div class="element col-xs-12 col-md-4">
+          <h3>TRENINZI</h3>
+          <p>Personalizirani treninzi za sve ciljeve</p>
+        </div>
+
+        <div class="element col-xs-12 col-md-4">
+          <h3>MARATONI</h3>
+          <p>Stavljamo tu medalju oko tvoga vrata</p>
+        </div>
+      </div>
+
+      <div
+        class="container flex-md-row flex-column align-items-center d-flex justify-content-center"
+      >
+        <div class="element col-xs-12  col-md-4">
+          <h3>ZAJEDNICA</h3>
+          <p>Uvijek imaš društvo koje će te bodriti na svakom koraku</p>
+        </div>
+        <div class="element col-xs-12 col-md-4">
+          <h3>UDRUGA</h3>
+          <p>Učlanjavanjem u udrugu imaš i dodatne pogodnosti</p>
+        </div>
+        <div class="container col-xs-12 col-md-4"><img src="images/srce1-02.png" /></div>
+      </div>
+    </section>
+
+    <!--INSPIRACIJA-->
+    <section class="inspiracija">
+      <div class="container">
+        <div class="inner-container text-center align-middle">
+          <h2 class=" ">Bilo kada. Bilo gdje. Bez obzira na udaljenost.</h2>
+          <p>
+            Ljepota trčanja je u tome što nema ograničenja. Po svim terenima,
+            bez obzira na prepreke, duga ili kratka staza.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--ŠTO  MOŽEŠ-->
+    <section class="p-5">
+      <div class="sto-mozes row">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 container ">
+          <div class=" p-3">
+            <img src="icons/runer-silhouette-running-fast.png" />
+            <h3 class="card-title pb-3">MARATON</h3>
+            <p class="card-text pb-3">
+              Otrči svoj prvi maraton s nama. Ako te zanima gdje smo do sada
+              istrčali maratone, pogledaj <a class="">ovdje</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 container ">
+          <div class=" p-3">
+            <img src="icons/start-up.png" />
+            <h3 class="card-title pb-3">KRENI</h3>
+            <p>
+              Ako ti je želja početi trčati, mi imamo poseban program baš za
+              tebe
+            </p>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 container ">
+          <div class=" p-3">
+            <img src="icons/speedometer.png" />
+            <h3 class="card-title pb-3">ŠESTA BRZINA</h3>
+            <p>
+              Toliko trčiš da se čini kao da nemaš ograničenja? Mi ćemo ti naći
+              izazov kako bi protrčao kroz cilj još brže
+            </p>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 container ">
+          <div class=" p-3">
+            <img src="icons/success.png" />
+            <h3 class="card-title pb-3">CILJ</h3>
+            <p>
+              Prva trka na 5 km, ili još jedna na 42 km, ako ti cilj nije
+              brzina, već da kroz cilj prođeš bez ozljeda, javi nam se
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--FOTO-TEKST-->
+
+    <section class="foto-text container">
+      <div
+        class="container d-flex flex-md-row flex-column align-content-center align-items-center"
+      >
+        <div class="foto flex-fill p-5">
+          <img src="images/trcanje-most.jpg" alt="" />
+        </div>
+        <div class="text flex-fill col-md-6">
+          <h2 class="display-4  p-2">Od hodanja do ultre</h2>
+          <div>
+            <p class="display-5  p-2">
+              Naš program te dovodi u najbolju kondiciju da dođeš od starta do
+              cilja, neovisno je li to 5 ili 50 km.
+            </p>
+            <p class="display-5 p-2">
+              Ako znaš kako je otrčati maraton, i misliš si "Ok, ovo uopće nije
+              teško" imamo dobre vijesti! Naši treneri se brinu kako bi i takvi
+              uspjeli doći kući nakon treninga umorni.
+            </p>
+            <div class="text-center">
+              <a href="pages/kontakt.html"><button type="button" class="button  display-3 p-2">
+                KRENI DANAS
+              </button></a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer>
+      <div class="container">
+        <div class="row text-center justify-content-center pt-5 mb-3">
+          <div class="col-md-2 mb-3">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!">Početna</a>
+            </h6>
+          </div>
+
+          <div class="col-md-2 mb-3">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="pages/otrcani-maratoni.html">Maratoni</a>
+            </h6>
+          </div>
+
+          <div class="col-md-2 mb-3">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="pages/liga.html">Liga</a>
+            </h6>
+          </div>
+
+          <div class="col-md-2 mb-3">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="pages/kontakt.html">Kontakt</a>
+            </h6>
+          </div>
+        </div>
+        <div>
+          <p class="text-center justify-content-center pt-5 mb-3">
+            © Copyright 2019 Ena Ević - All Rights Reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

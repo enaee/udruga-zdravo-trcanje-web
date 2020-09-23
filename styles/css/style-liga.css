@@ -1,0 +1,123 @@
+  /*COVER*/
+
+  .cover {
+      background-image: linear-gradient(30deg, #5E0101, #F45555, #85CEF6);
+      color: #FFF;
+  }
+
+  .cover-text {
+      padding-top: 10%;
+      padding-bottom: 15%;
+  }
+
+  .cover-text h1 {
+      padding-bottom: 0.6em;
+  }
+
+  .cover-text h5 {
+      padding-bottom: 0.6em;
+  }
+
+  .cover-text button {
+      margin-left: 1em;
+      margin-right: 1em;
+      background-color: #C10404;
+      border: none;
+      color: white;
+      font-size: 1.7em;
+      padding: 20px;
+      border-radius: 8px;
+      transition-duration: 0.4s;
+      width: 60%;
+      margin-bottom: 1em;
+  }
+
+  .cover .button:hover {
+      background-color: #8C0202;
+      color: white;
+      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.24), 0 1px 15px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  /*OSIJEK LIGA*/
+
+  .osijek-liga {
+      margin-top: 5%;
+      margin-bottom: 5%;
+  }
+
+  .osijek-liga img {
+      width: 100%;
+      height: 100%;
+      
+  }
+
+  .osijek-liga p {
+      width: 100%;
+      height: 100%;
+      font-size: 1.2em;
+  }
+
+  /*VALPOVO LIGA*/
+
+  .valpovo-liga {
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 3%;
+      margin-bottom: 3%;
+  }
+
+  .valpovo-liga h2 {
+      font-size: 3em;
+  }
+
+  .valpovo-liga img {
+      width: 100%;
+      height: 100%;
+      padding-top: 10%;
+      padding-bottom: 10%;
+  }
+  @media (min-width: 1200px) { 
+    .valpovo-liga img {
+        width: 70%;
+        height: 100%;
+        margin-left: 25%
+    }
+   }
+
+  .valpovo-liga p {
+      width: 100%;
+      height: 100%;
+      font-size: 1.2em;
+  }
+
+  /*PRIJAVA*/
+
+  .prijava {
+      background-image: url(../../images/liga2.jpg);
+      height: 120%;
+      width: 100%;
+      background-position: center;
+      /* Center the image */
+      background-repeat: no-repeat;
+      /* Do not repeat the image */
+      background-size: cover;
+      background-attachment: fixed;
+      padding: 5%;
+  }
+
+  .prijava button {
+      background-color: transparent;
+      border: none;
+      color: white;
+      font-size: 3em;
+      transition-duration: 0.4s;
+  }
+
+  .prijava .button:hover {
+      background-color: rgb(140, 2, 2, 0.5);
+      color: white;
+      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.24), 0 1px 15px 0 rgba(0, 0, 0, 0.19);
+  }
+
+
+  

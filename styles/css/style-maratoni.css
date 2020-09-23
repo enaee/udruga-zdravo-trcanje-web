@@ -1,0 +1,96 @@
+  /* GALERIJA */
+
+  .galerija {
+    padding: 5%;
+    justify-content: space-evenly;
+    display: grid;
+    grid-gap: 5%;
+    margin-bottom: 40%;
+  }
+
+  .galerija img {
+    width: 100%;
+    height: auto;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    background-color: #85CEF6;
+  }
+
+  .hover {
+    position: relative;
+    width: 50%;
+    margin: 2%;
+  }
+
+  .hover:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+
+  .text {
+    white-space: nowrap;
+    color: white;
+    font-size: 2.5em;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  @media (max-width: 768px) {
+    .galerija {
+      margin-top: 5%;
+      margin-bottom: 5%;
+      padding: 0%;
+      grid-gap: 0%;
+    }
+    .red {
+      margin: 0;
+      padding: 0;
+    }
+    .galerija img {
+      padding: 0;
+      margin: 0;
+    }
+    .text {
+      color: white;
+      font-size: 2.5em;
+      position: relative;
+      white-space: nowrap;
+      top: 50%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+    padding-bottom: 1%;
+    
+    }
+    .galerija .container {
+      margin: 0%;
+      padding: 0%;
+    }
+    .galerija .hover {
+      margin-bottom: 3%;
+      padding: 0%;
+      text-align: center;
+    }
+    .overlay {
+      height: 100%;
+      position: relative;
+      border-radius: 0px 0px 10px 10px;
+    }
+    
+  }
+
+ 
